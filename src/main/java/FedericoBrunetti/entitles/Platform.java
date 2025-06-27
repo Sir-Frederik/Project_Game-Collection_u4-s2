@@ -1,6 +1,6 @@
-package FedericoBrunetti.entitles
+package FedericoBrunetti.entitles;
 
-enum class Platform {
+public enum Platform {
     PC,
     XBOX,
     WII,
@@ -15,6 +15,5 @@ enum class Platform {
     PS2,
     PS10,
     ANDROID,
-    IPHONE
-
+    IPHONE;
 }
