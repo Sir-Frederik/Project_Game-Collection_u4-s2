@@ -14,15 +14,17 @@ public class VideoGame  extends Game{
 
     @Override
     public String toString() {
-        return "VideoGame{" +
-                "durationH=" + durationH +
-                ", platform=" + platform +
-                ", genre=" + genre +
+        return " Tipo: VideoGame" +
+                ", Titolo=" + Title  +
                 ", id=" + id +
-                ", Title='" + Title + '\'' +
-                ", PubblicationYear='" + PubblicationYear + '\'' +
-                ", price=" + price +
-                '}';
+                ",Durata [h]" + durationH +
+                ", Piattaforma=" + platform +
+                ", Genere=" + genre +
+
+
+                ", Anno di pubblicazione'" + PubblicationYear +
+                ", prezzo=" + price+ "€";
+
     }
 
     public Platform getPlatform() {

@@ -12,14 +12,15 @@ public class BoardGame extends Game{
 
     @Override
     public String toString() {
-        return "BoardGame{" +
-                "PlayerNumb=" + PlayerNumb +
-                ", DurationM=" + DurationM +
+        return " Tipo: VideoGame" +
+                ", Titolo=" + Title  +
                 ", id=" + id +
-                ", Title='" + Title + '\'' +
-                ", PubblicationYear='" + PubblicationYear + '\'' +
-                ", price=" + price +
-                '}';
+                "Giocatori" + PlayerNumb +
+                ", Durata [m]" + DurationM +
+
+                ", Anno di pubblicazione'" + PubblicationYear +
+                ", prezzo=" + price+ "€";
+             
     }
 
     public byte getPlayerNumb() {
