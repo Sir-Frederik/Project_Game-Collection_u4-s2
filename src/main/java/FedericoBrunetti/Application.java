@@ -43,12 +43,13 @@ Boolean continueLoop = true;
                     collection.showAllGames();
                     break;
                 case 2:
-                    aggiungiGioco(collection, scanner);
+                    addGame(collection, scanner);
                     break;
                 case 3:
-
+                    System.out.println("Funzione non ancora implementata");
                     break;
                 case 4:
+                    System.out.println("Funzione non ancora implementata");
 
                     break;
                 case 0:
@@ -64,7 +65,7 @@ Boolean continueLoop = true;
     }
 
 
-    private static void aggiungiGioco(GameCollection collection, Scanner scanner) {
+    private static void addGame(GameCollection collection, Scanner scanner) {
         try {
             System.out.println("Inserisci ID (numero intero):");
             short id = scanner.nextShort();

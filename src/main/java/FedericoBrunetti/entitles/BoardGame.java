@@ -20,7 +20,7 @@ public class BoardGame extends Game{
 
                 ", Anno di pubblicazione'" + PubblicationYear +
                 ", prezzo=" + price+ "€";
-             
+
     }
 
     public byte getPlayerNumb() {
